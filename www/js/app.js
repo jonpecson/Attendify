@@ -72,12 +72,12 @@ angular.module('starter', ['ionic', 'starter.controllers', 'starter.services', '
         }
     })
 
-    .state('app.products', {
-        url: "/products",
+    .state('app.subjects', {
+        url: "/subjects",
         views: {
             'menuContent': {
-                templateUrl: "templates/products.html",
-                controller: 'ProductsCtrl'
+                templateUrl: "templates/subjects.html",
+                controller: 'SubjectsCtrl'
             }
         }
     })
